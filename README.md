@@ -28,6 +28,8 @@ And then use the defined class, id etc. in that css file for the texts in the `n
 }
 ~~~
 
+**minimal_example.qmd**
+
 ~~~
 ---
 title: "Changing styles of Speaker notes."
