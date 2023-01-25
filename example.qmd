@@ -1,11 +1,47 @@
 ---
-title: "Style-speaker-note Example"
+title: "Changing styles of Speaker notes."
+format: revealjs
+author: Shafayet Khan Shafee
+date: last-modified
+speaker_notes_style: speaker_notes.css
+engine: knitr
 filters:
   - style-speaker-note
 ---
 
-## Heading
 
-This filter adds formatting to heading text.
+## A Slide with speaker notes
 
+Press `s` to see the speaker notes. Where we have used the class `change-note` to change the style the text of the speaker note for this slide. And we have used pandoc Divs `:::` to attach this class. (It's also possible to use pandoc span `[]` which is concise to use in some cases. See the next slide where a pandoc span is used to attach a css class).
+
+And we define the property of the class `change-note` in the css file attached with `speaker_notes_style`.
+
+:::: {.notes}
+
+Here are the speaker notes.
+
+::: {.change-note}
+
+These fonts are in smaller size and with different font family.
+
+:::
+
+and these are larger in size.
+
+::::
+
+
+## Another Slide with speaker notes
+
+
+Here we have used pandoc span, that is, wrapped the line of the speaker note that we want to style with `[]` and attach a class to it which we defined in the attached css file referred in `speaker_notes_style`.
+
+:::: {.notes}
+
+Here we have more speaker notes.
+
+[These fonts are large in size]{.larger-note}
+
+
+::::
 

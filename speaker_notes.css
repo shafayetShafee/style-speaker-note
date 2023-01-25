@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&display=swap');
+
+.change-note {
+  font-size: 14px;
+  font-family: 'IBM Plex Mono', monospace;
+  background-color: #D4FFE9;
+}
+
+.larger-note {
+  font-size: 26px;
+  font-family: 'IBM Plex Mono', monospace;
+  font-weight: bold;
+}
