@@ -4,6 +4,8 @@ Style the Speaker Notes of the RevealJs slides.
 
 See the [live demo](https://shafayetshafee.github.io/style-speaker-note/example.html)
 
+*Note that, this extension requires Quarto version to be at least 1.2.*
+
 ## Installing
 
 ```bash
