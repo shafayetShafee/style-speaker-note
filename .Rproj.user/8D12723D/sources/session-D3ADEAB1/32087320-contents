@@ -1,0 +1,8 @@
+title: Style Speaker Notes
+author: Shafayet Khan Shafee
+version: 1.0.0
+quarto-required: ">=1.2.0"
+contributes:
+  filters:
+    - style-speaker-note.lua
+
