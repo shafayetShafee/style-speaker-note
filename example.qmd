@@ -1,9 +1,10 @@
 ---
 title: "Changing styles of Speaker notes."
-format: revealjs
 author: Shafayet Khan Shafee
 date: last-modified
-speaker_notes_style: speaker_notes.css
+format: 
+  revealjs:
+    speaker_notes_style: speaker_notes.css
 engine: knitr
 filters:
   - style-speaker-note
